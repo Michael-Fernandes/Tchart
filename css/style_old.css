@@ -1,0 +1,229 @@
+/* Uncomment to  show scroll
+::-webkit-scrollbar { 
+    display: none; 
+}
+*/
+/******* js helper *****/
+#mobile {
+	display: none;
+}
+/***********************/
+
+html{
+	overflow: hidden;
+	height:100%;
+}
+body {
+	background-color: #F1F1F1;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	overflow: auto;
+	height:100%;
+	margin: 0 0 0;
+}
+
+.orange-wrapper, #chart-wrapper {
+	height: 100vh;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#skills-description {
+	color: black;
+	width: 600px;
+	max-width: 800px;
+	padding: 25px 0 10px 0;
+	margin: 0 auto 0 auto;
+}
+
+
+h2 {
+	font-family: "Myriad Pro", Myriad,  Helvetica,  sans-serif;
+	font-weight: 400;
+	font-style
+	margin-bottom: 10px;
+}
+
+#skills-description > div> p {
+	margin: 5px;
+	font-family: 'Muli', sans-serif;
+}
+
+#skills-title {
+	margin-bottom: 0px;
+}
+
+.orange-wrapper{ 
+	background-color: orange;
+ }
+
+.epic-wrapper>p{
+	font-family: "Myriad Pro", Myriad,  Helvetica,  sans-serif;
+	font-weight: 300;
+	color: white;
+	font-size: 35px;
+	max-width: 525px;
+	padding: 25px;
+	width:90%;
+}
+
+.emphasize {
+	color: grey;
+	font-weight: 400;
+}
+
+/****** resume *********/
+#resume-link > p, #skills-description {
+	display: block;
+}
+
+#resume-link, #resume-link > p {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#resume-link {
+	align-content: center;
+	align-items: center;
+	background-color: grey;
+	border: 2px solid grey;
+	border-radius: 5px;
+	color: white;
+	display: flex;
+	font-size: 18px;
+	height: 30px;
+	width: 300px;
+}
+
+
+#resume-link:hover {
+	cursor: pointer;
+	background-color: white;
+	color: grey;
+}
+
+#resume-link > p {
+	text-align: center;
+}
+
+/***************** temporary  ************/
+#close{
+	font-size: 20px;
+	font-weight:300;
+	cursor: pointer;
+	float: right;
+	right: 15px;
+	top: 10px;
+}
+
+#note{
+	position:absolute;
+	border-radius: 10px;
+	background-color: grey;
+	margin: 5px;
+	border-radius: 10px;
+}
+/*****************************/
+
+#note > p {
+	color: white;
+	padding: 10;
+	margin: 0;
+}
+
+a:-webkit-any-link {
+	color: orange;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  	#mobile { /* Js helper */
+  		display: inline;
+  	}
+  	.epic-wrapper>p{
+  		font-size: 80px;
+  		max-width: 90%;
+	}
+ }
+ /********** portfolio *******/
+ #portfolio {
+ 	margin-top: 1em;
+ 	width: 100%;
+ 	height: 200vw;
+ }
+
+/************ grid ***********/
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -10px;
+  margin-bottom: 10px;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
+[class*="col-"] {
+  padding: 10px;
+  width: 100%;
+}
+
+.col-1-2, .col-1-2 {
+	padding: 0px;
+	background-color: white;
+	max-width:33%;
+} 
+
+.row-img {
+	width: 100%;
+	height: inherit;
+}
+
+@media  ( max-width: 800px ) {
+	.col-1-2 {
+	padding: 0px;
+	background-color: white;
+	min-width: 320px;
+	max-width:50%;
+}
+
+.col-1-2, .col-1-1{
+	padding:0px;
+	background-color: white;
+}
+
+@media  ( max-width: 640px ) {
+  .col-1-3 {
+    width: 33.33%;
+  }
+  .col-1-4 {
+    width: 25%;
+  }
+  .col-1-8 {
+    width: 12.5%;
+  }
+
+}
+
+@media   ( max-width: 400px ) {
+	body {
+		max-width: 375px;
+	}
+
+   .row{
+   	width: 100%;
+   }
+  .col-1-1,.col-1-2  {
+    min-width: 100%;
+  }
+
+}
+
+
+

@@ -1,0 +1,34 @@
+
+
+.t-rect:hover  {
+	fill: #5C8BB9;
+	cursor: pointer;
+	color: blue;
+}
+
+.text:hover {
+	color: white;
+}
+
+.tool-tip {
+	fill: white;
+	font-size: 100pt;
+	background-color: orange;
+}
+
+
+div.tooltip {	
+    position: absolute;			
+    width: auto;					
+    height: auto;					
+    padding: 4px;				
+    font: 12px sans-serif;		
+    background: grey;	
+    border: 0px;		
+    border-radius: 4px;			
+    pointer-events: none;			
+}
+/* 300 400 700 */
+.skill-title {
+	font-weight: 700;
+}

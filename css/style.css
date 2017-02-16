@@ -10,6 +10,7 @@
 /***********************/
 
 html{
+	background-color: #f9f9f9;
 	overflow: hidden;
 	height:100%;
 }
@@ -24,8 +25,8 @@ body {
 }
 
 .orange-wrapper, #chart-wrapper {
-	height: 100vh;
-	display: flex;
+		height: 100vh;
+		display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -202,15 +203,13 @@ a {
 
 .col-1-1 {
 	padding: 0px;
-	background-color: #F7F7F7;
-	max-width: 33%;
-	min-width: 350px;
+	background-color: white;
+	max-width: 40%;
 }
 
 .col-1-2 {
-	background-color:#F7F7F7;
-	min-width: 50%;
-	min-width: 535px;
+	background-color: white;
+	min-width: 60%;
 }
 
 #content {
@@ -237,19 +236,14 @@ a {
 		width: 60%;
 	}
 
-	.col-1-1, .col-1-2 {
-		min-width: 0;
-	}
 }
 
 @media (max-width: 630px){
 	.row {
-		background-color: white;
 		margin: 10px;
 	}
 
 	.col-1-1 {
-		margin: 10px;
 		width: 100%;
 		max-width: 100%;
 		min-height: 300px;
@@ -260,7 +254,6 @@ a {
 	}
 
 	.col-1-2  {
-		background-color: white;
 		min-width: 100%;
 	}
 

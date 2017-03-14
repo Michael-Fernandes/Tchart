@@ -193,7 +193,9 @@ a {
 	flex-wrap: wrap;
 	justify-content: center;
 	margin-bottom: 10px;
-	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1080px;
 	min-height: 250px;
 }
 
@@ -204,7 +206,7 @@ a {
 .col-1-1 {
 	padding: 0px;
 	background-color: white;
-	max-width: 40%;
+	min-width: 40%;
 }
 
 .col-1-2 {
